@@ -260,8 +260,8 @@ h1 {
 }
 
 
-/*Homework -> Explore below code */
-/* .slider::-moz-range-thumb {
+
+.slider::-moz-range-thumb {
     position: relative;
     z-index: 1;
     appearance: none;
@@ -277,4 +277,52 @@ h1 {
     outline: 2px solid var(--vb-yellow);
     background-color: var(--dk-violet);
     box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
-  } */
+  } 
+
+ 
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+      padding: 1rem;
+    }
+  
+    .container {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .length-container,
+    .strength-container,
+    .check {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+  
+    .display-container,
+    .input-container {
+      border-radius: 0.75rem;
+      padding: 1rem;
+    }
+  
+    .display-container button,
+    .generateButton {
+      width: auto;
+    }
+  }
+  
+  /* For screens between 601px and 1024px */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
+  /* For screens larger than 1024px */
+  @media (min-width: 1025px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
