@@ -22,7 +22,8 @@ includeUppercase: Set to true if you want to include uppercase letters in the ge
 includeNumbers: Set to true if you want to include numbers in the generated password.
 includeSpecialChars: Set to true if you want to include special characters in the generated password.
 Feel free to experiment with these parameters to suit your specific requirements.
-
+Demo
+To see a live demo of the password generator website, you can visit the deployed site https://password-generator-by-utkarsh-bansal.netlify.app/
 Credits
 The project was developed by Utkarsh bansal 
 
